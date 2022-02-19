@@ -7,8 +7,7 @@ import "./App.css";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import PostDetail from "../pages/PostDetail";
-import Header from "../components/Header";
-
+import Header from "../components/Header"
 
 // import {Grid, Button} from "./elements";
 import { ConnectedRouter } from "connected-react-router";
