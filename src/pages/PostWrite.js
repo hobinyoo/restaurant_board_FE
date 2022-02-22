@@ -14,6 +14,7 @@ const PostWrite = (props) => {
     const [title, setTitle] = useState("");
     const [location, setLocation] = useState("");
     const [comment, setComment] = useState("");
+    
     const addPost = () => {
         dispatch(postActions.addPostFB(title, location, comment, preview));
     };
